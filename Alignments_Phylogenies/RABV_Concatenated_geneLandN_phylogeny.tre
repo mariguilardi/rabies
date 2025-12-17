@@ -1,0 +1,208 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=106;
+	taxlabels
+	202_CNS
+	24_AnalSwab
+	24_CNS
+	27_CNS
+	321_Fetus
+	321_Kidney
+	321_CNS
+	359_CNS
+	'AB519641.1'
+	'AB519642.1'
+	'AB608731.1'
+	'AB618032.1'
+	'AB618034.1'
+	'AY705373.1'
+	'EU293116.1'
+	'JQ685913.1'
+	'JQ685917.1'
+	'JQ685942.1'
+	'JQ685952.1'
+	'JQ685956.1'
+	'JQ685961.1'
+	'JQ685963.1'
+	'JQ685965.1'
+	'JQ685973.1'
+	'KM594023.1'
+	'KM594024.1'
+	'KM594025.1'
+	'KM594026.1'
+	'KM594027.1'
+	'KM594028.1'
+	'KM594029.1'
+	'KM594030.1'
+	'KM594031.1'
+	'KM594032.1'
+	'KM594033.1'
+	'KM594034.1'
+	'KM594035.1'
+	'KM594036.1'
+	'KM594037.1'
+	'KM594038.1'
+	'KM594040.1'
+	'KM594041.1'
+	'KM594042.1'
+	'KM594043.1'
+	'KU523255.1'
+	'JQ685953'
+	'JQ685921'
+	'JQ685971'
+	'JQ685897'
+	'JQ685898'
+	'JQ685903'
+	'JQ685907'
+	'JQ685909'
+	'JQ685920'
+	'JQ685923'
+	'JQ685925'
+	'JQ685931'
+	'JQ685946'
+	'JQ685950'
+	'JQ685960'
+	'JQ685974'
+	'JQ685895'
+	'JQ685902'
+	'JQ685919'
+	'JQ685947'
+	'JQ685915'
+	'JQ685916'
+	'JQ685900'
+	'JQ685910'
+	'MZ494188'
+	'JQ685955'
+	'JQ685922'
+	'KX148100'
+	'JQ685905'
+	'KX148109'
+	'JQ685945'
+	'JQ685918'
+	'JQ685933'
+	'JQ685934'
+	'JQ685948'
+	'JQ685957'
+	'JQ685893'
+	'JQ685904'
+	'JQ685911'
+	'JQ685932'
+	'JQ685940'
+	'JQ685941'
+	'JQ685958'
+	'JQ685959'
+	'JQ685962'
+	'JQ685964'
+	'JQ685966'
+	'JQ685969'
+	'MF197745.1'
+	'MG458304.1'
+	'MG458305.1'
+	'MG458314.1'
+	'MK920923.1'
+	'MW506937.1'
+	'MW506938.1'
+	'MW506939.1'
+	'MW506940.1'
+	'ON146312.1'
+	'ON146313.1'
+	'OU524413.1'
+	'OU524425.1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((('JQ685909':0.00584,'JQ685933':0.00292)[&label=0.782]:0.00145,(('JQ685907':0.00144,('JQ685913.1':5.5E-4,(('JQ685964':0.0,'JQ685941':0.0):0.0029,('JQ685934':5.5E-4,('JQ685974':0.00145,'JQ685898':0.00145)[&label=0.0]:5.5E-4)[&label=0.858]:0.00145)[&label=0.0]:5.5E-4)[&label=0.0,!rotate=true]:5.5E-4)[&label=0.969,!rotate=true]:0.00436,('JQ685946':0.01164,(((((('JQ685921':0.05883,(('KM594028.1':0.00431,('KM594027.1':0.00292,'KM594026.1':0.00293)[&label=0.914]:0.00454)[&label=0.999,!rotate=true]:0.03441,(('KM594032.1':0.03028,('KM594031.1':0.00669,'KM594030.1':0.00816)[&label=0.999]:0.05401)[&label=0.964,!rotate=true]:0.02614,('MK920923.1':0.06003,'MF197745.1'[&!rotate=true]:0.39568)[&label=0.911,!rotate=true]:0.05391)[&label=0.5,!rotate=true]:0.01113)[&label=0.409,!rotate=true]:0.00774)[&label=0.893,!rotate=true]:0.01059,(('JQ685971':0.04151,(('JQ685952.1':0.00133,'JQ685965.1':0.00161)[&label=1.0]:0.0345,('JQ685918':0.0324,'JQ685957':0.02406)[&label=0.932]:0.01155)[&label=0.75,!rotate=false]:0.0021)[&label=0.57,!rotate=true]:0.00312,(('OU524425.1':0.01016,'JQ685920':0.00651)[&label=0.999]:0.03312,('JQ685925':0.00124,'MZ494188':0.01057)[&label=0.999]:0.02629)[&label=0.942]:0.01216)[&label=0.766]:0.00407)[&label=0.941,!rotate=true]:0.0119,('KM594029.1':0.04528,((('KM594034.1':5.5E-4,('KM594035.1':0.00292,'KM594036.1':0.00292)[&label=0.0]:5.5E-4)[&label=0.0]:5.5E-4,'KM594033.1':0.00145)[&label=0.807]:0.00224,(('AB618034.1':0.00319,'AB618032.1':5.5E-4)[&label=0.784]:8.1E-4,(27_CNS:0.00438,(359_CNS:0.00695,(202_CNS:0.02966,(24_AnalSwab:0.00278,24_CNS:5.5E-4)[&label=0.915]:0.00427)[&label=0.761]:0.00124)[&label=0.849]:0.00259)[&label=0.996]:0.01429)[&label=0.045]:0.00141)[&label=0.999]:0.03433)[&label=0.96,!rotate=true]:0.01768)[&label=0.865]:0.00711,((('MG458305.1':0.0031,('EU293116.1':0.00458,('KM594038.1':0.0029,('KM594037.1':5.5E-4,('ON146312.1':0.00291,'ON146313.1':0.00291)[&label=0.786]:0.00145)[&label=0.0,!rotate=true]:5.5E-4)[&label=0.857,!rotate=true]:0.00274)[&label=0.393,!rotate=true]:0.00291)[&label=1.0,!rotate=true]:0.046,(('JQ685953':0.03293,((((('KX148109':0.00615,(321_CNS:0.07188,(321_Kidney:0.00561,321_Fetus:0.05743)[&label=0.125,!rotate=true]:0.00147)[&label=0.999,!rotate=true]:0.02543)[&label=0.981,!rotate=true]:0.01191,('MG458314.1':0.00295,(('AB519642.1':0.0074,'KM594043.1':0.00143)[&label=0.99]:0.01047,('KM594041.1':0.0044,('KU523255.1':0.00438,'KX148100':0.00146)[&label=0.8]:0.00145)[&label=0.88]:0.00288)[&label=0.921]:0.00453)[&label=0.839,!rotate=true]:0.00278)[&label=0.759]:0.00146,('AB519641.1':0.00295,('KM594042.1':0.0044,'KM594040.1':0.00144)[&label=0.893]:0.00295)[&label=0.977,!rotate=true]:0.00747)[&label=0.773]:5.5E-4,('MW506939.1':0.00166,('MW506940.1':5.5E-4,'MW506938.1':0.00439)[&label=0.784]:0.00125)[&label=1.0,!rotate=true]:0.01632)[&label=0.796]:0.00396,('MW506937.1':0.02512,'OU524413.1':0.01296)[&label=0.429]:0.00419)[&label=0.894]:6.4E-4)[&label=0.923,!rotate=true]:0.00984,('JQ685905':0.02327,'JQ685963.1':0.04303)[&label=0.806]:0.00811)[&label=0.999]:0.03463)[&label=0.978,!rotate=true]:0.01689,(('JQ685916':0.02335,'JQ685915':0.02254)[&label=0.996]:0.02613,(('KM594025.1':0.05216,('KM594024.1':0.01395,'KM594023.1':0.01824)[&label=0.998]:0.0466)[&label=0.998,!rotate=true]:0.04833,(('JQ685902':0.01553,('JQ685900':0.01802,('JQ685910':0.01744,('JQ685919':0.01682,('JQ685947':0.00672,'AB608731.1':0.00658)[&label=0.98]:0.0123)[&label=0.751,!rotate=true]:0.00189)[&label=0.768,!rotate=true]:5.4E-4)[&label=0.8,!rotate=true]:0.00572)[&label=0.998,!rotate=true]:0.02628,('JQ685895':0.01097,('JQ685922':0.00541,'AY705373.1':0.0034)[&label=0.965]:0.01275)[&label=0.565,!rotate=true]:0.0074)[&label=1.0]:0.04262)[&label=0.81,!rotate=true]:0.00842)[&label=0.941,!rotate=true]:0.01218)[&label=0.735]:0.00106)[&label=0.496,!rotate=true]:0.00524,'JQ685955':0.04576)[&label=0.91,!rotate=true]:0.00842,('JQ685942.1':0.02674,('JQ685931':0.00599,(('JQ685973.1':0.0,'JQ685948':0.0):0.00596,'JQ685903':0.0029)[&label=0.894]:0.00439)[&label=0.991,!rotate=true]:0.01804)[&label=0.383,!rotate=true]:0.00412)[&label=0.963,!rotate=true]:0.01231)[&label=0.946,!rotate=true]:5.3E-4)[&label=0.774,!rotate=true]:0.00145)[&label=0.906,!rotate=true]:0.0029,'JQ685917.1':0.00438)[&label=0.0,!rotate=false]:5.5E-4,((('JQ685897':0.00145,'JQ685945':0.00145)[&label=0.802]:0.00145,('JQ685950':0.00145,'JQ685961.1':0.0029)[&label=0.0]:5.5E-4)[&label=0.805]:0.00144,'JQ685960':0.00145)[&label=0.0]:5.5E-4,(('MG458304.1':0.0,'JQ685956.1':0.0):0.0029,('JQ685923':5.5E-4,((('JQ685904':0.0,'JQ685893':0.0,'JQ685966':0.0,'JQ685932':0.0):0.00126,'JQ685958':5.3E-4)[&label=0.137]:0.00145,(('JQ685940':0.0,'JQ685911':0.0,'JQ685962':0.0):5.5E-4,('JQ685969':0.0,'JQ685959':0.0):0.00145)[&label=1.0]:5.3E-4)[&label=0.914]:0.00126)[&label=0.979]:0.00583)[&label=0.236,!rotate=true]:5.5E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=500;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
