@@ -1,1 +1,0 @@
-Online appendix material for "Maternal-fetal detection of rabies virus in the vampire bat Desmodus rotundus, Brazil"
